@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src='game.js'>  </script>
+    <link rel='stylesheet' href=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel='stylesheet' href='game.css'>
+  </head>
+  <body style='background-color:black;'>
+    <div class='container'>
+    <div>
+      <h2 style='border-color:blue;padding-bottom:50px;color:orange;'>Stone-Paper-Scissor</h2>
+    </div>
+      <div class='flex-box-rps' id='flex-box-rps-div'>
+        <img id='rock' src='stone image.jpeg' height='250' width='250' onclick='rpsGame(this)'>
+        <img id='paper' src='Paper.jpg' height='250' width='250' onclick='rpsGame(this)'>
+        <img id='scissor' src='scissor.jpeg' height='250' width='250' onclick='rpsGame(this)'>
+        <h1 id='choose_msg' style='padding-top:50px;color:pink;'> Please Choose Your Choice </h1>
+      </div>
+    </div>
+  </body>
+</html>

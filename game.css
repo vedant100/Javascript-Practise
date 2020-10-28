@@ -1,0 +1,25 @@
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(255,100,50,1);
+}
+
+
+.flex-box-rps img{
+    padding:25px;
+}
+
+.flex-box-rps div{
+display: inline-block;
+padding: 50px;
+}
+
+.container{
+      border: 1px solid black;
+      width: 75%;
+      margin: 0 auto;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      justify-content:space-around;
+      background-color: black;
+      }
